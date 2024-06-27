@@ -1,0 +1,278 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "my-app2",
+      "version": "0.0.1",
+      "private": true,
+      "scripts": {
+        "dev": "vite dev",
+        "build": "vite build",
+        "preview": "vite preview",
+        "check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
+        "check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch"
+      },
+      "devDependencies": {
+        "@sveltejs/adapter-auto": "next",
+        "@sveltejs/kit": "next",
+        "svelte": "^3.44.0",
+        "svelte-check": "^2.7.1",
+        "typescript": "^4.7.4",
+        "vite": "^3.1.0-beta.1"
+      },
+      "type": "module"
+    },
+    "prefix": "C:\\Users\\Ahmed Talal\\my-app2"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "C:\\Users\\Ahmed Talal\\AppData\\Local\\pnpm\\store\\v3",
+    "virtualStoreDir": "C:\\Users\\Ahmed Talal\\my-app2\\node_modules\\.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "C:\\Users\\Ahmed Talal\\my-app2",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "EAI_AGAIN",
+      "code": "EAI_AGAIN",
+      "erroredSysCall": "getaddrinfo"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/@sveltejs%2Fadapter-auto"
+  },
+  "5 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "EAI_AGAIN",
+      "code": "EAI_AGAIN",
+      "erroredSysCall": "getaddrinfo"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/@sveltejs%2Fkit"
+  },
+  "6 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "EAI_AGAIN",
+      "code": "EAI_AGAIN",
+      "erroredSysCall": "getaddrinfo"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/svelte"
+  },
+  "7 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "EAI_AGAIN",
+      "code": "EAI_AGAIN",
+      "erroredSysCall": "getaddrinfo"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/svelte-check"
+  },
+  "8 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "EAI_AGAIN",
+      "code": "EAI_AGAIN",
+      "erroredSysCall": "getaddrinfo"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/typescript"
+  },
+  "9 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "EAI_AGAIN",
+      "code": "EAI_AGAIN",
+      "erroredSysCall": "getaddrinfo"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/vite"
+  },
+  "10 error pnpm": {
+    "code": "ERR_PNPM_META_FETCH_FAIL",
+    "attempts": 1,
+    "spec": {
+      "fetchSpec": "latest",
+      "name": "pnpm",
+      "type": "tag"
+    },
+    "err": {
+      "name": "Error",
+      "message": "GET https://registry.npmjs.org/pnpm: request to https://registry.npmjs.org/pnpm failed, reason: getaddrinfo EAI_AGAIN registry.npmjs.org",
+      "code": "ERR_PNPM_META_FETCH_FAIL",
+      "stack": "Error: GET https://registry.npmjs.org/pnpm: request to https://registry.npmjs.org/pnpm failed, reason: getaddrinfo EAI_AGAIN registry.npmjs.org\n    at RetryOperation._fn (C:\\Users\\Ahmed Talal\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:85619:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+    }
+  },
+  "11 debug pnpm": "Using cached meta from C:\\Users\\Ahmed Talal\\AppData\\Local\\pnpm-cache\\metadata\\registry.npmjs.org\\pnpm.json",
+  "12 debug pnpm:update-check": {
+    "currentVersion": "7.5.0",
+    "latestVersion": "7.5.1"
+  },
+  "13 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "EAI_AGAIN",
+      "code": "EAI_AGAIN",
+      "erroredSysCall": "getaddrinfo"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/@sveltejs%2Fadapter-auto"
+  },
+  "14 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "EAI_AGAIN",
+      "code": "EAI_AGAIN",
+      "erroredSysCall": "getaddrinfo"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/svelte"
+  },
+  "15 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "EAI_AGAIN",
+      "code": "EAI_AGAIN",
+      "erroredSysCall": "getaddrinfo"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/@sveltejs%2Fkit"
+  },
+  "16 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "EAI_AGAIN",
+      "code": "EAI_AGAIN",
+      "erroredSysCall": "getaddrinfo"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/svelte-check"
+  },
+  "17 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "EAI_AGAIN",
+      "code": "EAI_AGAIN",
+      "erroredSysCall": "getaddrinfo"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/typescript"
+  },
+  "18 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "EAI_AGAIN",
+      "code": "EAI_AGAIN",
+      "erroredSysCall": "getaddrinfo"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/vite"
+  },
+  "19 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/svelte/3.50.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "svelte",
+      "rawSpec": "^3.44.0"
+    }
+  },
+  "20 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte/3.50.0",
+    "requester": "C:\\Users\\Ahmed Talal\\my-app2",
+    "status": "resolved"
+  },
+  "21 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/svelte/3.50.0",
+    "size": 1565854,
+    "status": "started"
+  },
+  "22 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte/3.50.0",
+    "requester": "C:\\Users\\Ahmed Talal\\my-app2",
+    "status": "fetched"
+  },
+  "23 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/vite/3.1.0-beta.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "vite",
+      "rawSpec": "^3.1.0-beta.1"
+    }
+  },
+  "24 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/vite/3.1.0-beta.2",
+    "requester": "C:\\Users\\Ahmed Talal\\my-app2",
+    "status": "resolved"
+  },
+  "25 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/vite/3.1.0-beta.2",
+    "size": 758897,
+    "status": "started"
+  },
+  "26 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/vite/3.1.0-beta.2",
+    "requester": "C:\\Users\\Ahmed Talal\\my-app2",
+    "status": "fetched"
+  },
+  "27 error pnpm": {
+    "code": "ERR_PNPM_META_FETCH_FAIL",
+    "attempts": 1,
+    "spec": {
+      "fetchSpec": ">=4.7.4 <5.0.0-0",
+      "name": "typescript",
+      "type": "range"
+    },
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "GET https://registry.npmjs.org/typescript: request to https://registry.npmjs.org/typescript failed, reason: getaddrinfo EAI_AGAIN registry.npmjs.org",
+      "code": "ERR_PNPM_META_FETCH_FAIL",
+      "stack": "pnpm: GET https://registry.npmjs.org/typescript: request to https://registry.npmjs.org/typescript failed, reason: getaddrinfo EAI_AGAIN registry.npmjs.org\n    at RetryOperation._fn (C:\\Users\\Ahmed Talal\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:85619:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+    }
+  }
+}
